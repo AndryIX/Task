@@ -1,15 +1,15 @@
 {
     "users": [{
             "id": 1,
-            "username": "YA"
+            "username": "Anton"
         },
         {
             "id": 2,
-            "username": "ti"
+            "username": "Timur"
         },
         {
             "id": 3,
-            "username": "on"
+            "username": "Sasha"
         }
     ],
     "tasks": [{
