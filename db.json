@@ -35,22 +35,23 @@
     ],
     "posts": [{
             "id": 1,
-            "title": "hello 1",
+            "text": "Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
             "userID": 1
         },
+
         {
             "id": 2,
-            "title": "hello 2",
+            "text": "Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
             "userID": 1
         },
         {
             "id": 3,
-            "title": "hello 3",
+            "text": "Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
             "userID": 2
         },
         {
             "id": 4,
-            "title": "hello 4",
+            "text": "Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
             "userID": 2
         }
     ]
