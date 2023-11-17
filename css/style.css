@@ -7,7 +7,8 @@ body,
 nav,
 ul,
 li,
-div {
+div,
+p {
     margin: 0;
     padding: 0;
 }
@@ -71,6 +72,8 @@ a {
 }
 
 .card {
+    display: flex;
+    flex-direction: column;
     padding: 20px;
     margin-top: 20px;
     margin-bottom: 40px;
@@ -82,7 +85,7 @@ a {
 .form-addPost {
     display: block;
     margin-top: 40px;
-    width: 400px;
+    max-width: 400px;
 }
 
 .form-addPost select,
@@ -154,4 +157,41 @@ button:hover {
     border-width: 10.4px 6px 0 6px;
     border-color: #7e9bbd transparent transparent transparent;
     pointer-events: none;
+}
+
+.interaction {
+    display: inline-flex;
+    justify-content: flex-end;
+}
+
+.interaction a {
+    color: white;
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 5px 15px;
+    margin-left: 5px;
+    background-color: rgb(0, 70, 70);
+    border: 2px solid teal;
+    border-radius: 10px;
+    transition: background-color .2s ease-out;
+}
+
+.interaction a:hover {
+    background-color: rgb(0, 120, 120);
+}
+
+.result-query {
+    background-color: goldenrod;
+    border-radius: 10px;
+    box-shadow: 0px 0px 30px lightgrey;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.result-query p {
+    font-size: 16pt;
+    font-weight: bold;
+    color: beige;
+    margin-top: 10px;
 }

@@ -4,8 +4,8 @@ require_once "../blocks/header.php";
 
 use App\Api;
 
-$users = Api::getENTI("users");
-$tasks = Api::getENTI("tasks");
+$users = json_decode(Api::getENTI("users"));
+$tasks = json_decode(Api::getENTI("tasks"));
 
 foreach($users as $uservalue){ ?>
     <div class="card">
